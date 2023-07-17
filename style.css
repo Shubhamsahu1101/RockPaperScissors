@@ -1,0 +1,158 @@
+* {
+    font-family: cursive;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main heading start */
+
+.mainHeading {
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #61dafb;
+    background-color: #282c34;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: black solid 1px;
+}
+
+.mainHeading p {
+    font-size: xx-large;
+    padding: 0.1em;
+    margin: 0px;
+}
+
+/* main heading end */
+
+/* leaderboard start */
+
+.alltimeboard,
+.currentsessionboard {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #282c34;
+    border-bottom: black solid 1px;
+}
+
+.alltimeboard .alltimehead p,
+.currentsessionboard .currentsessionhead p {
+    margin: 0.5em;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.alltimeboard .alltimebody,
+.currentsessionboard .currentsessionbody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alltimeboard .alltimebody .player,
+.alltimeboard .alltimebody .computer,
+.currentsessionboard .currentsessionbody .player,
+.currentsessionboard .currentsessionbody .computer {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.alltimeboard .alltimebody .player p,
+.alltimeboard .alltimebody .computer p,
+.currentsessionboard .currentsessionbody .player p,
+.currentsessionboard .currentsessionbody .computer p {
+    margin: 0.2em;
+}
+
+/* leaderboard end */
+
+/* pcchooses tab starts */
+
+.choicetab {
+    height: 27vh;
+    font-weight: 600;
+    color: #61dafb;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choicetab .pchoice,
+.choicetab .cchoice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choicetab .pchoice p,
+.choicetab .cchoice p {
+    margin: 0.3em;
+}
+
+.choicetab .pchoice img,
+.choicetab .cchoice img {
+    margin: 0.5em;
+    height: 20vh;
+    width: auto;
+}
+
+/* pcchooses tab end */
+
+/* buttontab start */
+
+.buttontab {
+    height: 8vh;
+    display: flex;
+}
+
+.buttontab .result {
+    width: 50%;
+    font-size: x-large;
+    font-weight: 700;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #282c34;
+}
+
+.buttontab .playbutton {
+    width: 25%;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.buttontab .resetbutton {
+    width: 25%;
+    padding: 0.2em;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+
+/* buttontab end */
+
+/* choiceimages tab start */
+
+.choiceimages {
+    height: 22.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #282c34;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* choiceimages tab end */
