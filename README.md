@@ -1,4 +1,4 @@
-# Stone Paper Scissors Game
+# Rock Paper Scissors Game
 
 This is a simple Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. In this game, the player competes against the computer by choosing one of the three options: Stone, Paper, or Scissors. The computer also makes a random choice, and the winner is determined based on the rules of the game.
 
